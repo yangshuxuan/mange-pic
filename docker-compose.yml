@@ -29,8 +29,8 @@ services:
     # image: mysql:5.6
     # command: --default-authentication-plugin=mysql_native_password
     restart: always
-    ports:
-      - 3306:3306
+    #ports:
+    #  - 3306:3306
     environment:
       MYSQL_DATABASE: "operatepathology"
       MYSQL_ROOT_PASSWORD: pcl123456
@@ -46,8 +46,8 @@ services:
   adminer:
     image: adminer
     restart: always
-    ports:
-      - 8085:8080
+    #ports:
+    #  - 8085:8080
 
 volumes:
   db-data:

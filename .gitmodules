@@ -1,0 +1,3 @@
+[submodule "mange-pic-fudan"]
+	path = mange-pic-fudan
+	url = git@github.com:yangshuxuan/mange-pic-fudan.git
